@@ -19,7 +19,7 @@ function Portfolio() {
         <h2>Portfolio Website</h2>
         <hr className="pro" />
         <p>Welcome to my portfolio website, where I showcase my passion for web development and design. This project is a dynamic and visually engaging platform that highlights my skills and projects. Using HTML, CSS, JavaScript, and React, I've created a captivating online portfolio that serves as a digital canvas to express my creativity and expertise.</p>
-        <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/DubeyHarsh612/Harsh-Portfolio" target="_blank" rel="noopener noreferrer">
             <img src={github} alt="GitHub" className="logo" />
         </a>
     </div>
