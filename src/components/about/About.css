@@ -28,6 +28,7 @@
     overflow: hidden;
     overflow-y: auto;
     flex: 1;
+    height: 35rem;
     text-align: left;
     text-align: justify;
     max-width: 90rem;
