@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.56cf4784.css",
-    "main.js": "/my-app/static/js/main.88a325b1.js",
-    "static/media/result.png": "/my-app/static/media/result.a6f2750de9e6fa3df2e6.png",
-    "static/media/menu.png": "/my-app/static/media/menu.4a2af7471ece9a5c88ab.png",
-    "static/media/portweb.png": "/my-app/static/media/portweb.e8ac51ee6eaf9d909c7f.png",
-    "static/media/contact.png": "/my-app/static/media/contact.cefee047269bbe1a13c4.png",
-    "static/media/suitcase.png": "/my-app/static/media/suitcase.a4a59ca25a416d632657.png",
-    "static/media/news.png": "/my-app/static/media/news.b54a9762dc75179d030e.png",
-    "static/media/mail.png": "/my-app/static/media/mail.4252b08067a5fc2fc628.png",
-    "index.html": "/my-app/index.html",
-    "main.56cf4784.css.map": "/my-app/static/css/main.56cf4784.css.map",
-    "main.88a325b1.js.map": "/my-app/static/js/main.88a325b1.js.map"
+    "main.css": "/Harsh-Portfolio/static/css/main.56cf4784.css",
+    "main.js": "/Harsh-Portfolio/static/js/main.3fb498c7.js",
+    "static/media/result.png": "/Harsh-Portfolio/static/media/result.a6f2750de9e6fa3df2e6.png",
+    "static/media/menu.png": "/Harsh-Portfolio/static/media/menu.4a2af7471ece9a5c88ab.png",
+    "static/media/portweb.png": "/Harsh-Portfolio/static/media/portweb.e8ac51ee6eaf9d909c7f.png",
+    "static/media/contact.png": "/Harsh-Portfolio/static/media/contact.cefee047269bbe1a13c4.png",
+    "static/media/suitcase.png": "/Harsh-Portfolio/static/media/suitcase.a4a59ca25a416d632657.png",
+    "static/media/news.png": "/Harsh-Portfolio/static/media/news.b54a9762dc75179d030e.png",
+    "static/media/mail.png": "/Harsh-Portfolio/static/media/mail.4252b08067a5fc2fc628.png",
+    "index.html": "/Harsh-Portfolio/index.html",
+    "main.56cf4784.css.map": "/Harsh-Portfolio/static/css/main.56cf4784.css.map",
+    "main.3fb498c7.js.map": "/Harsh-Portfolio/static/js/main.3fb498c7.js.map"
   },
   "entrypoints": [
     "static/css/main.56cf4784.css",
-    "static/js/main.88a325b1.js"
+    "static/js/main.3fb498c7.js"
   ]
 }
