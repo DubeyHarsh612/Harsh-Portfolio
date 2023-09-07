@@ -46,13 +46,32 @@
 }
 
 .btn {
-    font-size: medium;
-    margin: 1rem 0;
-    padding: 0.75rem 2rem;
-    font-weight: 1500;
-    border-radius: 2rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center; /* Center text and icon horizontally and vertically */
+    padding: 0.5rem 1rem;
+    background-color: #DCAE96;
+    color: white;
+    border: 1px solid #007BFF;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
     cursor: pointer;
+    width: 10rem; 
+    margin-top: 1rem;
 }
+ .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-icon {
+    width: 20px;
+    margin-right: 0.5rem;
+  }
+  
+  .btn-label {
+    font-size: 1rem;
+  }
 
 .btn img {
     object-fit: cover;
