@@ -1,10 +1,9 @@
 import { Navbar } from "./components/Navbar";
-import './index.css'
 import { Intro } from './components/Intro/intro';
 // import { Skill } from './components/skills/skill'; // Update 'Skills' to 'Skill'
 import {About} from './components/about/about'
 import Timeline from "./components/timeline/Timeline";
-
+import './index.css'
 import Portfolio from "./components/Projects/Portfolio";
 import Footer from "./components/footer/Footer";
 

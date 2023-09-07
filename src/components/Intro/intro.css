@@ -45,7 +45,7 @@
 .btn {
   display: inline-flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; /* Center text and icon horizontally and vertically */
   padding: 0.5rem 1rem;
   background-color: #DCAE96;
   color: white;
@@ -54,7 +54,7 @@
   text-decoration: none;
   transition: background-color 0.3s ease-in-out;
   cursor: pointer;
-  width: 10rem;
+  width: 10rem; 
   margin-top: 1rem;
 }
 
@@ -69,6 +69,13 @@
 
 .btn-label {
   font-size: 1rem;
+}
+
+.btn img {
+  object-fit: cover;
+  margin: 0 0.25rem;
+  height: 1rem;
+  padding-right: 0.8rem;
 }
 
 @media (max-width: 768px) {

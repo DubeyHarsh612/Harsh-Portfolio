@@ -1,14 +1,16 @@
 .about-section {
   height: calc(100vh - 4rem);
-  max-width:0 85rem;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
-  justify-content: left;
   border: 1px solid black;
   padding: 4rem;
   background-color: #DCAE96;
+  width: 100%; 
 }
+
+
 
 .hrtag {
   width: 65%;
@@ -19,7 +21,7 @@
 }
 
 .about-content {
-  max-width: 60%;
+  max-width: 80%;
   margin: 0 auto;
   overflow: hidden;
   overflow-y: auto;
