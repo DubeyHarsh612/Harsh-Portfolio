@@ -1,0 +1,92 @@
+.about-section {
+  height: calc(100vh - 4rem);
+  max-width:0 85rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: left;
+  border: 1px solid black;
+  padding: 4rem;
+  background-color: #DCAE96;
+}
+
+.hrtag {
+  width: 65%;
+  margin: 0 auto;
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.about-content {
+  max-width: 60%;
+  margin: 0 auto;
+  overflow: hidden;
+  overflow-y: auto;
+  flex: 1;
+  height: 35rem;
+  text-align: left;
+  text-align: justify;
+  max-width: 90rem;
+  padding: 2rem;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 2rem;
+}
+
+.logo {
+  width: 32px; /* Adjust as needed */
+  height: 32px; /* Adjust as needed */
+}
+
+.contact {
+  align-items: center;
+  text-align: center;
+}
+
+.about-content h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: black;
+}
+
+.about-content p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: black;
+  margin-bottom: 1.5rem;
+  word-wrap: break-word; /* Add this to prevent long words from overflowing */
+}
+
+.about-image {
+  flex: 1;
+}
+
+.about-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 700px) {
+  .about-section {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem;
+  }
+
+  .about-content {
+    max-width: 100%;
+  }
+
+  .about-content h2 {
+    font-size: 2rem;
+  }
+
+  .about-content p {
+    font-size: 1.1rem;
+  }
+}

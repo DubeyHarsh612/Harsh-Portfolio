@@ -1,0 +1,65 @@
+#projects {
+    overflow: hidden;
+    min-height: 100vh; /* Set a minimum height to occupy the entire viewport */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    padding: 2rem; /* Reduce padding for smaller screens */
+    background-color: #DCAE96;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    text-align: center; /* Center the title */
+}
+
+.projectbars {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch; /* Stretch items vertically */
+    max-width: 85rem; /* Adjust the maximum width */
+    width: 100%; /* Make sure it takes full width */
+}
+
+.projectbar {
+    flex: 1;
+    max-width: calc(50% - 2rem); /* Two columns per row on smaller screens */
+    margin: 1rem; /* Adjust margin for spacing between columns */
+    padding: 1.5rem 2rem;
+    border-radius: 1.5rem;
+    background-color: white;
+    text-align: center;
+    min-width: 20rem;
+}
+
+.projectbarimg {
+    margin: 1rem;
+   height: 15rem;
+   width: 15rem;
+
+}
+
+.logo{
+    margin: 1rem;
+}
+
+.pro{
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.title-hr {
+    width: 50%;
+    z-index: 2;
+    margin: 0 auto;
+    border: 1px solid black;
+    margin-top: 10px; /* Adjust the margin as needed */
+    margin-bottom: 20px; /* Adjust the margin as needed */
+  }
+  

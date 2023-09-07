@@ -1,0 +1,21 @@
+.harsh{
+    width: 100vw;
+    height: 5rem;
+    justify-content: center;
+    align-items: center;
+    max-width: 0 85rem;
+   
+}
+
+.text{
+    text-align: center;  
+    margin: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.hr1{
+width: 80rem;
+margin: 0 auto; /* Set margin to center horizontally */
+    width: 50%;
+}
